@@ -1,0 +1,12 @@
+img{
+  height: 400px;
+}
+SliderCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.style{
+border: 5px solid black !important;
+width:100% !important;
+}
