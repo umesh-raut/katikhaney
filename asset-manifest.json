@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/katikhaney/static/css/main.b1fb4108.css",
-    "main.js": "/katikhaney/static/js/main.b4da482a.js",
-    "static/js/787.767184ac.chunk.js": "/katikhaney/static/js/787.767184ac.chunk.js",
-    "index.html": "/katikhaney/index.html",
-    "main.b1fb4108.css.map": "/katikhaney/static/css/main.b1fb4108.css.map",
-    "main.b4da482a.js.map": "/katikhaney/static/js/main.b4da482a.js.map",
-    "787.767184ac.chunk.js.map": "/katikhaney/static/js/787.767184ac.chunk.js.map"
+    "main.css": "/katikhaney.github.io/static/css/main.b1fb4108.css",
+    "main.js": "/katikhaney.github.io/static/js/main.123fac93.js",
+    "static/js/787.767184ac.chunk.js": "/katikhaney.github.io/static/js/787.767184ac.chunk.js",
+    "index.html": "/katikhaney.github.io/index.html",
+    "main.b1fb4108.css.map": "/katikhaney.github.io/static/css/main.b1fb4108.css.map",
+    "main.123fac93.js.map": "/katikhaney.github.io/static/js/main.123fac93.js.map",
+    "787.767184ac.chunk.js.map": "/katikhaney.github.io/static/js/787.767184ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1fb4108.css",
-    "static/js/main.b4da482a.js"
+    "static/js/main.123fac93.js"
   ]
 }
