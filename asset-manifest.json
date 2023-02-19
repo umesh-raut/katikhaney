@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/katikhaney/static/css/main.b1fb4108.css",
+    "main.js": "/katikhaney/static/js/main.b4da482a.js",
+    "static/js/787.767184ac.chunk.js": "/katikhaney/static/js/787.767184ac.chunk.js",
+    "index.html": "/katikhaney/index.html",
+    "main.b1fb4108.css.map": "/katikhaney/static/css/main.b1fb4108.css.map",
+    "main.b4da482a.js.map": "/katikhaney/static/js/main.b4da482a.js.map",
+    "787.767184ac.chunk.js.map": "/katikhaney/static/js/787.767184ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1fb4108.css",
+    "static/js/main.b4da482a.js"
+  ]
+}
