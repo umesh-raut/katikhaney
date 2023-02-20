@@ -1,12 +1,22 @@
+*{
+  margin: 1px;
+  padding: 1px;
+
+}
 img{
   height: 400px;
 }
 SliderCard{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 .style{
 border: 5px solid black !important;
 width:100% !important;
+}
+.Navbar{
+  background-color: rgb(80, 76, 76);
+  color: aliceblue;
 }

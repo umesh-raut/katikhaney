@@ -19,9 +19,9 @@ export default function Footer() {
                     setValue(newValue);
                 }}
             >
-                <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-                <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-                <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+                <BottomNavigationAction label="Meal timer" icon={<RestoreIcon />} />
+                <BottomNavigationAction label="Favorite Diet Plans" icon={<FavoriteIcon />} />
+                <BottomNavigationAction label="Contact Us" icon={<LocationOnIcon />} />
             </BottomNavigation>
         </Box>
     );

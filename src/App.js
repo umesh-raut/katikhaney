@@ -1,26 +1,33 @@
 
 import './App.css';
+import CalorieCounter from './components/CalorieCounter';
 import DietNutritionPlan from './components/DietNutritionPlan';
 import NavBar from "./components/NavBar";
 import SliderCard from "./components/SliderCard";
 import Footer from "./components/Footer";
-import Login from './components/Login';
+import Subsription from './components/Subsription';
+
 function App() {
   return (
     <>
-    <NavBar/>
-    {/* <h2>Welome, Stranger!</h2>
+      <NavBar/>
+    {/* {/* <h2>Welome, Stranger!</h2>
     use js to welome users after logining in */
-    }
-    <SliderCard/>
+      }
+      <SliderCard/>
     <hr></hr>
     <div>
-      <DietNutritionPlan></DietNutritionPlan>
+      <DietNutritionPlan/>
     </div>
+    <br />
+    <CalorieCounter/>
     <div>
-      <Login/>
+      <h4>Suscribe with your Email for regular updates</h4>
+      
     </div>
-    <div><Footer/></div>
+    <Subsription/>
+      <div><Footer/></div>
+
 
     </>
   );

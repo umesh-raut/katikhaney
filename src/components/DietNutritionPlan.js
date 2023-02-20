@@ -1,23 +1,23 @@
 import React, { useState } from 'react'
 
 export default function DietNutritionPlan() {
-   const [myStyle, setMyStyle] = useState(  {
+  const [myStyle, setMyStyle] = useState({
     color: 'black',
     backgroundColor: 'white'
   })
-   const [BtnText, setBtnText] = useState("Dark Mode")
-   const toggleStyle=()=>{
-    if(myStyle.color==='black'){
-      setMyStyle({ 
+  const [BtnText, setBtnText] = useState("Dark Mode")
+  const toggleStyle = () => {
+    if (myStyle.color === 'black') {
+      setMyStyle({
         color: 'white',
-      backgroundColor: 'black'
+        backgroundColor: 'black'
       })
       setBtnText("light Mode")
     }
-    else{
-      setMyStyle({ 
-        color: 'black',
-      backgroundColor: 'white'
+    else {
+      setMyStyle({
+        backgroundColor: 'white',
+        color:'black'
 
       })
       setBtnText("Dark Mode")
@@ -29,26 +29,26 @@ export default function DietNutritionPlan() {
 
 
   return (
-    < >  
-    <button type="button"  onClick={toggleStyle} class="btn btn-outline-dark">{BtnText}</button>
-      <div className="row" >
+    <>
+      <button type="button" onClick={toggleStyle} class="btn btn-outline-dark" id="DietNutritionPlan">{BtnText}</button>
+      <div className="row"  >
         <div className="col-sm-6 mb-3 mb-sm-0">
           <div className="card" style={myStyle}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
-              <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="/#" className="btn btn-primary">Go somewhere</a>
-              
+              <h5 className="card-title">BreakFast</h5>
+              <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione odit repellat minima nihil! Exercitationem sapiente repellat officiis sint fuga corrupti!</p>
+              <a href="/#" className="btn btn-primary">Recepie</a>
+
 
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-5">
           <div className="card" style={myStyle}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">Lunch</h5>
               <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="/#" className="btn btn-primary">Go somewhere</a>
+              <a href="/#" className="btn btn-primary">Recepie</a>
             </div>
           </div>
         </div>
@@ -58,18 +58,18 @@ export default function DietNutritionPlan() {
         <div className="col-sm-6 mb-3 mb-sm-0">
           <div className="card" style={myStyle}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">Dinner</h5>
               <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="/#" className="btn btn-primary">Go somewhere</a>
+              <a href="/#" className="btn btn-primary">Recepie</a>
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-5">
           <div className="card" style={myStyle}>
             <div className="card-body">
-              <h5 className="card-title">Special title treatment</h5>
+              <h5 className="card-title">Supper</h5>
               <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="/#" className="btn btn-primary">Go somewhere</a>
+              <a href="/#" className="btn btn-primary">Recepie</a>
             </div>
           </div>
         </div>
