@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/katikhaney/static/css/main.7b66aa2d.css",
-    "main.js": "/katikhaney/static/js/main.2cfc663c.js",
+    "main.css": "/katikhaney/static/css/main.a3c9cc81.css",
+    "main.js": "/katikhaney/static/js/main.331b1b82.js",
     "static/js/787.767184ac.chunk.js": "/katikhaney/static/js/787.767184ac.chunk.js",
     "index.html": "/katikhaney/index.html",
-    "main.7b66aa2d.css.map": "/katikhaney/static/css/main.7b66aa2d.css.map",
-    "main.2cfc663c.js.map": "/katikhaney/static/js/main.2cfc663c.js.map",
+    "main.a3c9cc81.css.map": "/katikhaney/static/css/main.a3c9cc81.css.map",
+    "main.331b1b82.js.map": "/katikhaney/static/js/main.331b1b82.js.map",
     "787.767184ac.chunk.js.map": "/katikhaney/static/js/787.767184ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b66aa2d.css",
-    "static/js/main.2cfc663c.js"
+    "static/css/main.a3c9cc81.css",
+    "static/js/main.331b1b82.js"
   ]
 }
