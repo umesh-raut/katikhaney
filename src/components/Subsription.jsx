@@ -14,10 +14,11 @@ function Subsription() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="sub">
+    <form onSubmit={handleSubmit} className="sub" >
       <label htmlFor="email" className='sub-lbl'>Subscribe for regular update</label>
-      <input className='sub-inp' type="email" id="email" value={email} onChange={handleChange} />
-      <input type="submit" value="Submit" />
+      <input className='sub-inp' type="email" id="email" value={email} onChange={handleChange} placeholder='enter your email'/>
+      <br />
+      <button type="button" class="btn btn-outline-info">Submit</button>
     </form>
   );
 }

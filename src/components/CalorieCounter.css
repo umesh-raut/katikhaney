@@ -92,18 +92,28 @@ p{
     background-color: #fff;
     color: #333;
   }
-  button {
-    float: right;
-    background-color: #0bdf6a;
-    color: #fff;
+  .borderless-button {
+    background-color:transparent;
+    border-radius: 25px;
+    border-bottom: #bbb;
+    color: white;
     padding: 10px 20px;
-    border-radius: 25%;
-    border: none;
-    cursor: pointer;
-    font-size: 12px;
-    transition: background-color 0.3s ease-in-out;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    transition: all 0.3s ease;
   }
+  
+  .borderless-button:hover {
+    text-decoration: underline;
+    background-color: #4d6577;
+  }
+  button{
+    float: right;
+  }
+  
   
 
   

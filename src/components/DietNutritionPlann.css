@@ -1,0 +1,12 @@
+.background{
+    background-color: rgb(118, 170, 153);
+    background-image: url('https://images.pexels.com/photos/7420934/pexels-photo-7420934.jpeg?auto=compress&cs=tinysrgb&w=600');
+    
+ 
+}
+#DietNutritionPlan{
+    float: left;
+}
+#card-body{
+    box-shadow: 0 0 7px 4px rgb(63, 57, 57, 0.5);
+}

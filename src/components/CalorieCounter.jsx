@@ -14,7 +14,7 @@ export default function CalorieCounter() {
   <form className='Calorie'>
     <label>
       Enter your Age:
-      <input type="number" name="age" />
+      <input type="number" name="age" placeholder='age' />
     </label>
     <label>
       Sex:
@@ -25,13 +25,14 @@ export default function CalorieCounter() {
     </label>
     <label>
       Weight (in kg):
-      <input type="number" name="weight" />
+      <input type="number" name="weight" placeholder='weight'/>
     </label>
     <label>
       Height (in cm):
-      <input type="number" name="height" />
+      <input type="number" name="height" placeholder='height'/>
     </label>
-    <button type='submit'>Calulate Calorie</button>
+    <button class="borderless-button">Calculate Calorie</button>
+
   </form>
       </div>
       </div>
